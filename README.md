@@ -19,13 +19,15 @@ This application retrieves and processes weather data from the OpenWeatherMap AP
 - Hourly Data Collection: Runs hourly to refresh data and store updated records.
 # Installation
 1. Clone the repository:
-```pip
+```
 git clone <https://github.com/Adsii20/Weather-Monitoring>
 cd weather monitoring
 ```
-
-   
-3. <img width="530" alt="image" src="https://github.com/user-attachments/assets/0b03f39f-331d-4733-bdfd-12532dee5865">
-
-
+2. Install required dependeries
+```
+pip install requests sqlite3 matplotlib
+```
+3. Setup OpenWeatherMap API Key: Replace API_KEY in the script with your actual OpenWeatherMap API key.
+# Usage
+Run the main script to start the application:
 
